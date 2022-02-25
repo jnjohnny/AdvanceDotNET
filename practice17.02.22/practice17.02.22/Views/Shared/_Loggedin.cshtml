@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Logged In</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div><a href="/Person/Home" class="btn btn-success">Home</a> <a href="/Person/List" class="btn btn-success"">List</a></div>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div>
+        &copy; Adv. Net Spring 2021-2022
+    </div>
+</body>
+</html>
